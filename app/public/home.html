@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron">
+    <div class="text-center">
+        <h1>Welcome to friend finder!</h1>
+        <h2>click the link below to get started!</h2>
+        <a href="/survey"><button type="button" class="btn btn-primary">Take the survey!</button></a>
+    </div>
+</div>
+
+    <div class="jumbotron text-center">
+        <h2>Answer the questions below as truthfully as possible!</h2>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Who to you is the best rapper ever?</h3>
+            </div>
+            <form role="form">
+              <div class="panel-body">
+
+                  <h4>1. lil yachty</h4>
+                  <h4>2. eminem</h4>
+                  <h4>3. lil wayne</h4>
+                  <h4>4. fat joe</h4>
+                  <h4>5. vanilla ice</h4>
+                  <label for="reserve-email"></label>
+                  <input type="rapper" class="form-control" id="rapper">
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">How do you like your steak?</h3>
+              </div>
+              <div class="panel-body">
+                  <h4>1. just killed</h4>
+                  <h4>2. rare</h4>
+                  <h4>3. medium rare</h4>
+                  <h4>4. medium well</h4>
+                  <h4>5. well done</h4>
+                  <label for="steak"></label>
+                  <input type="text" class="form-control" id="steak">
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">your favorite subject?</h3>
+              </div>
+              <div class="panel-body">
+                  <h4>1. science</h4>
+                  <h4>2. math</h4>
+                  <h4>3. english</h4>
+                  <h4>4. history</h4>
+                  <h4>5. other</h4>
+                  <label for="subject"></label>
+                  <input type="text" class="form-control" id="subject">
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">which pet would you rather have?</h3>
+              </div>
+              <div class="panel-body">
+                  <h4>1. cat</h4>
+                  <h4>2. dog</h4>
+                  <h4>3. hamster</h4>
+                  <h4>4. penguin</h4>
+                  <h4>5. giraff</h4>
+                  <label for="pet"></label>
+                  <input type="text" class="form-control" id="pet">
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">PC or Mac</h3>
+                  <label for="os"></label>
+                  <input type="text" class="form-control" id="os">
+              </div>
+              <div class="panel-body">
+                  
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Which car would you pick?</h3>
+              </div>
+              <div class="panel-body">
+                  <h4>1. Subaru wrx sti</h4>
+                  <h4>2. mitsubishi evo</h4>
+                  <h4>3. honda civic si</h4>
+                  <h4>4. toyota supra</h4>
+                  <h4>5. ford focus RS</h4>
+                  <label for="car"></label>
+                  <input type="text" class="form-control" id="car">
+              </div>
+          </div>
+          <button type="submit" class="btn btn-primary submit">Submit</button>
+        </form>
+        <a href="/"><button type="button" class="btn btn-primary">Back to Home<span class="glyphicon glyphicon-home"></span></button></a>
+    </div>
+    
+</body>
+
+<script type="text/javascript">
+
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Here we grab the form elements
+   
+        var rapperChoice = parseInt($("#rapper").val().trim());
+        var stealChoice = parseInt($("#steak").val().trim());
+        var subjectChoice = parseInt($("#subject").val().trim());
+        var osChoice = parseInt($("#os").val().trim());
+        var carChoice = parseInt($("#car").val().trim());
+
+      var friendNumber = rapperChoice + stealChoice + subjectChoice + osChoice + carChoice;
+
+      console.log(friendNumber);
+
+    
+
+      $.post("/api/tables", newReservation,
+        function(data) {
+
+          // If a table is available... tell user they are booked.
+          if (data) {
+            alert("Yay! You are officially booked!");
+          }
+
+          // If a table is available... tell user they on the waiting list.
+          else {
+            alert("Sorry you are on the wait list");
+          }
+
+          // Clear the form when submitting
+          $("#reserve-name").val("");
+          $("#reserve-phone").val("");
+          $("#reserve-email").val("");
+          $("#reserve-unique-id").val("");
+
+        });
+
+    });
+
+</script>
+</html>
+
